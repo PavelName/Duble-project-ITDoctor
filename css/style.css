@@ -30,6 +30,8 @@ img {
   display: block;
   max-width: 100%;
 }
+
+
 h1,
 h2,
 h3,
@@ -84,7 +86,7 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.header__title {
+.header__menu{
   padding-top: 20px;
   margin-bottom: 112px;
   display: flex;
@@ -94,6 +96,10 @@ p{
 .header__logo {
   width: 60px;
   height: 60px;
+}
+.header__title {
+  max-width: 730px;
+  margin: 0 auto;
 }
 .header__burger {
   width: 50px;
@@ -124,9 +130,9 @@ p{
   text-transform: uppercase;
   text-align: center;
   color: var(--white-color);
-  max-width: 734px;
-  margin: 0 auto;
+
 }
+
 .header__h4 {
   font-weight: 400;
   font-size: 18px;
@@ -321,6 +327,7 @@ p{
 @media ( max-width: 780px) {
   .numbers__info {
     position: relative;
+    padding: 30px 0;
   }
   .nunbers__grid {
     grid-template-columns: repeat(1, 1fr);
@@ -367,3 +374,29 @@ p{
 
 /* media query for section services */
 
+@media ( max-width: 1280px) {
+ .services {
+  padding-left: 15px;
+  padding-right: 15px;
+ }
+ .services__grig {
+  grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+ }
+ .services__grid-item {
+  width: 100%;
+ }
+   
+ }
+ @media ( max-width: 780px) {
+  .services__grig {
+    grid-template-columns: repeat(1, 1fr);
+     
+   }
+ }
+
+ @media screen and (max-width: 1200px) {
+  .header__h1 {
+    font-size: 20px;
+  }
+}
