@@ -325,6 +325,19 @@ p {
   letter-spacing: 0.02em;
 }
 
+.portfolio {
+}
+.portfolio__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 0;
+}
+.portfolio__grid-item {
+}
+.porfolio-images {
+}
+
 
 /* media query for numbers section */
 
@@ -332,6 +345,7 @@ p {
   .humbers__info-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+   
   }
 }
 
