@@ -391,7 +391,41 @@ p {
   max-width:730px ;
   margin-bottom: 40px;
 }
-@media screen and (max-width:1080px){
+
+.partners {
+  padding: 0 100px;
+  background-color: var(--dark-color);
+  margin-bottom: 150px;
+}
+.partners-h2 {
+  color: var(--white-color);
+  text-align: center;
+  padding: 100px 0 60px;
+}
+.partnrrs__grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  gap: 60px;
+}
+.partners__grid-item {
+  margin-bottom: 100px;
+}
+.partners-imaje {
+  min-width: 170px;
+}
+
+@media screen and (max-width: 1080px){
+  .partners__grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+
+
+
+@media screen and (max-width: 1080px){
   .question__items {
     padding: 0 15px;
 
