@@ -416,10 +416,10 @@ p {
 }
 
 @media screen and (max-width: 1080px){
-  .partners__grid {
+  .partnrrs__grid{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    justify-items: center;
+    justify-content: center;
   }
 }
 
